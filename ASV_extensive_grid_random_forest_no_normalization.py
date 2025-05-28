@@ -12,7 +12,7 @@ import glob
 import joblib
 import shap
 
-### for RMse, easy peasy funct
+## for RMse, easy peasy funct
 
 def rmse(y_true, y_pred):
     return np.sqrt(mean_squared_error(y_true, y_pred))
