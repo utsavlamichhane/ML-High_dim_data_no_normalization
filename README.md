@@ -21,4 +21,4 @@ The modeling script is also available in the main branch of the repo "ASV_extens
 
 Please run it in your server (EC2, Azure, GCP) or the server your university provides. 
 
-# If you dont have the computing resource use Random Search instead of GridSearch. 
+# If you don't have the computing resource use Random Search instead of GridSearch. 
