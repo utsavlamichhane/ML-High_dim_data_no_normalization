@@ -44,8 +44,8 @@ for file_path in data_files:
     ###grid
     rf = RandomForestRegressor(random_state=156)
     param_grid = {
-        'n_estimators':     [100, 300, 500, 800, 1200],
-        'max_depth':        [None, 10, 20, 30, 50],
+        'n_estimators':     [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200],
+        'max_depth':        [None, 10, 15, 20, 25, 30, 35, 40, 45, 50],
         'min_samples_split':[2, 5, 10],
         'min_samples_leaf': [1, 2, 4],
         'max_features':     ['auto', 'sqrt', 0.3, 0.5]
