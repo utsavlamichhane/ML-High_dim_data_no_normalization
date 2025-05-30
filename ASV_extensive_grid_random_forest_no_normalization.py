@@ -42,7 +42,7 @@ for file_path in data_files:
     )
     
     ###grid
-    rf = RandomForestRegressor(random_state=42)
+    rf = RandomForestRegressor(random_state=156)
     param_grid = {
         'n_estimators':     [100, 300, 500, 800, 1200],
         'max_depth':        [None, 10, 20, 30, 50],
