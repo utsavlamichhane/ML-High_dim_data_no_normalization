@@ -6,7 +6,7 @@ asv_df = pd.read_csv('ASV_table_clean.csv')
 #data dimension 73000 rows and  1168 columns (before transp)
 asv_transposed = asv_df.set_index('ASV ID').T
 
-# Many asked by not Import the alreadytransposed data 
+# Many asked by not Import the already transposed data. 
 # Again, my anser is same we can have 73000 rows but not column
 #  ##so we transpose here in the script so that we can use them as thecolumn
 
