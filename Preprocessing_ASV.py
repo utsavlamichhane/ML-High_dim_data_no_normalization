@@ -8,7 +8,7 @@ asv_transposed = asv_df.set_index('ASV ID').T
 
 # Many asked by not Import the alreadytransposed data 
 # Again, my anser is same we can have 73000 rows but not column
-#so we transpose here in the script so that we can use them as thecolumn
+#  ##so we transpose here in the script so that we can use them as thecolumn
 
 asv_transposed = (
     asv_transposed
